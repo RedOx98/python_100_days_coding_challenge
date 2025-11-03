@@ -1,0 +1,18 @@
+{
+    "test.com": {
+        "email": "youremail@example.com",
+        "password": "12345677"
+    },
+    "twitter": {
+        "email": "youremail@example.com",
+        "password": "1234567"
+    },
+    "google": {
+        "email": "youremail@example.com",
+        "password": "wiS(O3KU6I3#WfX+"
+    },
+    "Nairaland": {
+        "email": "youremail@example.com",
+        "password": "Lkf9JI*JV!%5Ll"
+    }
+}

@@ -1,0 +1,13 @@
+# config.py
+AMADEUS_CLIENT_ID = "WoxKmXMYmhWezmhO5UGEkdlagyF8KcgP"
+AMADEUS_CLIENT_SECRET = "sfssrkfLidyMFi7Y"
+
+SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/cfe410972db5adc5401fb03798265f66/flightDeals/sheet1"
+SHEETY_USERS_ENDPOINT = "https://api.sheety.co/cfe410972db5adc5401fb03798265f66/flightDeals/users"
+SHEETY_TOKEN = "Bearer bkcajivzkSNmvl.bzchvcxzfjxbjkJHZc"
+
+TWILIO_SID = "ACbbed0f300aacc97e70d881ad239c9a99"
+TWILIO_AUTH_TOKEN = "64eacbeeb9d6928f4dff8c6998175890"
+TWILIO_FROM = "+19789512717"
+MY_PHONE = "+2349044698791"
+RECOVERY_CODE_FOR_TWILLO = "F4TBDCNSYS4GSN1MNDVT3LUM"
