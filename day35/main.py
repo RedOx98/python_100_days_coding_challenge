@@ -4,7 +4,7 @@ from tkinter import messagebox
 
 
 # ---------------------------- CONSTANTS ------------------------------- #
-API_KEY = "3583838358de74ac91f9f1ba65e9c115"  # 👈 Replace this with your OpenWeatherMap API key
+API_KEY = "XXXXXXX"  # 👈 Replace this with your OpenWeatherMap API key
 API_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 # ---------------------------- FETCH WEATHER --------------------------- #

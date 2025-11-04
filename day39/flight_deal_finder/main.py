@@ -5,8 +5,8 @@ from datetime import datetime, timedelta
 from twilio.rest import Client as TwilioClient
 
 # ------------------- CONFIG ------------------- #
-AMADEUS_CLIENT_ID = "WoxKmXMYmhWezmhO5UGEkdlagyF8KcgP"
-AMADEUS_CLIENT_SECRET = "sfssrkfLidyMFi7Y"
+AMADEUS_CLIENT_ID = "XXXXXXXXX"
+AMADEUS_CLIENT_SECRET = "XXXXX"
 
 # ✅ Initialize Amadeus client
 amadeus = Client(

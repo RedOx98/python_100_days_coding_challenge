@@ -9,7 +9,7 @@ import datetime as dt
 #     connection.close()
 
 MY_EMAIL = "olaskeet@gmail.com"
-MY_PASSWORD = "snvjgxxtriwyaion"
+MY_PASSWORD = "XXXXXXXXX"
 TO_EMAIL = "olaskeet123@gmail.com"
 now = dt.datetime.now()
 year = now.year

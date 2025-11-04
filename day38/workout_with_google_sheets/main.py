@@ -4,11 +4,11 @@ from datetime import datetime
 # -------------------- NUTRITIONIX CONFIG -------------------- #
 NUTRITIONIX_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
 APP_ID = "16cca952" #a6ae0339
-API_KEY = "3283d972d9db04180182bf840188a789" #d13a5e8432bd0b05d749b49709b6808f
+API_KEY = "XXXXX" #XXXX
 
 # -------------------- SHEETY CONFIG -------------------- #
 SHEETY_ENDPOINT = "https://api.sheety.co/cfe410972db5adc5401fb03798265f66/workouts/sheet1"
-TOKEN = "adfsdugihkdjlmhsjbklzklmjnchbjjkzklNBgzchvgj"
+TOKEN = "XXXXXX"
 
 # -------------------- USER INPUT -------------------- #
 exercise_text = input("Tell me which exercises you did: ")
