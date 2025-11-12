@@ -10,8 +10,8 @@ driver = webdriver.Chrome(options=chrome_options)
 
 driver.get("https://iunion.unionbankng.com:8443/ords/f?p=110:LOGIN:14378948128862:::::")
 # driver.get("https://python.org")
-username = "carexpress_f90vr"
-password = "Hasbeeyah19*"
+username = "*********"
+password = "*********"
 
 # union_name = driver.find_element(By.XPATH, value='//*[@id="R276374988374023328"]/p[1]')
 # print(union_name.text)
