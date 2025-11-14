@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<!--
+	Paradigm Shift by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>Paradigm Shift by HTML5 UP</title>
+		<title>Mine</title>
+<!--		<link rel="stylesheet" href="static/css/main.css" />-->
+	</head>
+	<body class="is-preload">
+
+    {% for blog_post in blogs %}
+        {%if blog_post["id"]==2: %}
+
+        <h1>{{ blog_post["title"] }}</h1>
+        <h2>{{ blog_post["subtitle"] }}</h2>
+        {%endif%}
+
+        <hr>
+    {% endfor %}
+
+
+<footer>
+
+</footer>
+
+    <p>Copyright {{today}}</p>
+
+	</body>
+</html>
