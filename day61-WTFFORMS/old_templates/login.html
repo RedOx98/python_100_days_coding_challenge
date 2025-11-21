@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Login</title>
+	</head>
+	<body>
+        <div class="container">
+		<h1>Login</h1>
+        <!-- This is where our form will go. -->
+            <div class="container">
+			<h1>Login</h1>
+<<form method="POST" action="{{ url_for('login') }}">
+    {{ form.csrf_token }}
+
+    <div>
+        {{ form.email.label }}
+        {{ form.email(size=30) }}
+        {% if form.email.errors %}
+            <ul class="errors">
+                {% for err in form.email.errors %}
+                    <li style="color:red">{{ err }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+
+    <div>
+        {{ form.password.label }}
+        {{ form.password(size=30) }}
+        {% if form.password.errors %}
+            <ul class="errors">
+                {% for err in form.password.errors %}
+                    <li style="color:red">{{ err }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+
+    {{ form.submit() }}
+</form>
+
+		</div>
+        </div>
+	</body>
+</html>
